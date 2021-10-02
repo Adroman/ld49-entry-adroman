@@ -56,3 +56,21 @@ TagManager:
   - name: Objects
     uniqueID: 513993197
     locked: 0
+  - name: Enemies
+    uniqueID: 670563847
+    locked: 0
+  - name: EnemiesCarryingObjects
+    uniqueID: 2406651547
+    locked: 0
+  - name: Turrets
+    uniqueID: 3174641665
+    locked: 0
+  - name: Projectiles
+    uniqueID: 4047752695
+    locked: 0
+  - name: TallObjects
+    uniqueID: 154697859
+    locked: 0
+  - name: TowerBuilding
+    uniqueID: 2992168607
+    locked: 0

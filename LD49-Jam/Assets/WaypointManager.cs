@@ -13,9 +13,10 @@ public class WaypointManager : MonoBehaviour
 
     private void IndexWaves()
     {
-        for (var i = 0; i < Waypoints.Count; i++)
+        for (int i = 0; i < Waypoints.Count; i++)
         {
             var waypoint = Waypoints[i];
+            waypoint.WaypointManager = this;
             waypoint.Index = i;
         }
     }
