@@ -9,6 +9,8 @@ public class Tile : MonoBehaviour
     public Transform TowersParent;
     public TileCollection Tiles;
     public GameEvent TowerBuilt;
+    public GameEvent TowerUpgraded;
+    public InstabilityManager InstabilityManager;
     
     public Color DeselectedColor = new Color(0, 0, 0, 0);
     public Color SelectedColor = new Color(0, 1, 1, 0.5f);
@@ -52,12 +54,32 @@ public class Tile : MonoBehaviour
         {
             BuildTower();
         }
-        else
+        else if (BuiltTower != null && BuiltTower.UpgradedTower != null)
         {
-            // select tower
+            UpgradeTower();
         }
     }
 
+    private void UpgradeTower()
+    {
+        var selectedTower = BuiltTower.UpgradedTower;
+        if (GoldAmount.Value < BuiltTower.UpgradePrice)
+        {
+            Debug.Log("Not enough money");
+            return;
+        }
+
+        GoldAmount.Value -= BuiltTower.UpgradePrice;
+
+        var oldTower = BuiltTower;
+        
+        var t = transform;
+        BuiltTower = Instantiate(selectedTower, t.position, t.rotation, TowersParent);
+        BuiltTower.InstabilityManager = InstabilityManager;
+        TowerUpgraded.RaiseEvent();
+        Destroy(oldTower.gameObject);
+    }
+    
     private void BuildTower()
     {
         var selectedTower = TowerSelector.SelectedTower;
@@ -71,6 +93,7 @@ public class Tile : MonoBehaviour
         
         var t = transform;
         BuiltTower = Instantiate(selectedTower.Tower, t.position, t.rotation, TowersParent);
+        BuiltTower.InstabilityManager = InstabilityManager;
         TowerBuilt.RaiseEvent();
         OnMouseExit();
     }

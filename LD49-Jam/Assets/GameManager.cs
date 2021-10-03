@@ -10,4 +10,9 @@ public class GameManager : MonoBehaviour
         GoldAmount.Value = 100;
         WaveNumber.Value = 0;
     }
+
+    public void Greed()
+    {
+        GoldAmount.Value /= 2;
+    }
 }

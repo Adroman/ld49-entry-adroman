@@ -246,7 +246,7 @@ MonoBehaviour:
   WaypointManager: {fileID: 0}
   NextWaypoint: {fileID: 0}
   Direction: 0
-  PreviewImage: {fileID: 21300000, guid: 75e94d19acf3b6b4884eb33d98690758, type: 3}
+  PreviewImage: {fileID: 1129811344220890913}
   EnemyCollection: {fileID: 11400000, guid: 59d4431369a4f694e916e0b015113ec3, type: 2}
   GoldVariable: {fileID: 11400000, guid: d15fe990ad3920a498dd3c731667c638, type: 2}
   EnemyDied: {fileID: 11400000, guid: be01b9180460a23419fddbc265eebc32, type: 2}

@@ -8,6 +8,7 @@ public class InstabilityManager : MonoBehaviour
     public IntVariable GoldAmount;
 
     public List<GameEvent> Disasters;
+    public GameEvent DisasterOccured;
     
     public int MaxInstabilityIncrease;
     
@@ -24,13 +25,13 @@ public class InstabilityManager : MonoBehaviour
     public int MoneyHoardingInstabilityMinimum = 200;
     public int MoneyHoardingInstabilityIncreasePerGold = 1;
 
-    private void OnEnable()
+    private void Start()
     {
         MaxInstability.Value = 100;
         CurrentInstability.Value = 0;
     }
 
-    private void IncreaseInstability(int amount)
+    public void IncreaseInstability(int amount)
     {
         CurrentInstability.Value += amount;
         if (CurrentInstability.Value >= MaxInstability.Value)
@@ -75,5 +76,6 @@ public class InstabilityManager : MonoBehaviour
     {
         int i = Random.Range(0, Disasters.Count);
         Disasters[i].RaiseEvent();
+        DisasterOccured.RaiseEvent();
     }
 }

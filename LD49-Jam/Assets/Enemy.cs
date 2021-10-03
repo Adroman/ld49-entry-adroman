@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
     public WaypointManager WaypointManager;
     public Waypoint NextWaypoint;
     public TravelMethod Direction;
-    public Sprite PreviewImage;
+    public SpriteRenderer PreviewImage;
 
     public EnemyCollection EnemyCollection;
     public IntVariable GoldVariable;
@@ -93,9 +93,11 @@ public class Enemy : MonoBehaviour
             _carryingFlower = _targetFlower;
             _carryingFlower.OnPickup();
             _targetFlower = null;
-            Direction = TravelMethod.Entrance;
-            
-            // NextWaypoint should be the next one
+
+            if (Direction == TravelMethod.Goal)
+            {
+                Direction = TravelMethod.Entrance;
+            }
         }
         else
         {
@@ -154,8 +156,10 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void FindFlower(Waypoint waypointToUse)
+    public void FindFlower(Waypoint waypointToUse)
     {
+        waypointToUse.Flowers.RemoveAll(f => f == null);
+        
         var nearestFlower = waypointToUse.Flowers
             .OrderBy(f => (f.transform.position - transform.position).sqrMagnitude).First();
 

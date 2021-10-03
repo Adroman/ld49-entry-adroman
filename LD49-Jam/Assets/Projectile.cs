@@ -7,12 +7,14 @@ public class Projectile : MonoBehaviour
     public float Speed;
     public Enemy Target;
     public float AngleOffset;
+    public InstabilityManager InstabilityManager;
     
     public void Update()
     {
         if (Target == null)
         {
             Destroy(gameObject);
+            InstabilityManager.IncreaseInstability(Mathf.CeilToInt(Damage));
             return;
         }
         
@@ -35,7 +37,7 @@ public class Projectile : MonoBehaviour
 
     private void HitEnemy(Enemy enemy)
     {
-        enemy.Health -= Damage;
+        enemy.Health -= Math.Max(1, Damage - enemy.Armor);
         enemy.EnemyHealth.AdjustHealth(enemy);
         if (enemy.Health < 0)
         {

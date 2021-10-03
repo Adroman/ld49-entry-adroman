@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(CircleCollider2D))]
 public class Tower : MonoBehaviour
@@ -10,6 +11,10 @@ public class Tower : MonoBehaviour
     public float MinimumDamage;
     public float MaximumDamage;
     public float FireRate;
+    public int UpgradePrice;
+    public Tower UpgradedTower;
+
+    private AudioSource _audioSource;
     
     public float Range
     {
@@ -21,14 +26,18 @@ public class Tower : MonoBehaviour
     public Transform ShootingPoint;
     public float RotatingAngleOffset;
     public Projectile ProjectileToFire;
+    public InstabilityManager InstabilityManager;
 
+    public AudioClip[] SoundsToPlay;
+    
     private CircleCollider2D _collider;
     private float _reloadTimeRemaining;
-    private List<Enemy> EnemiesInRange = new List<Enemy>();
+    private readonly List<Enemy> _enemiesInRange = new List<Enemy>();
     
     public void Awake()
     {
         _collider = GetComponent<CircleCollider2D>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -41,14 +50,14 @@ public class Tower : MonoBehaviour
             return;
         }
 
-        if (EnemiesInRange.Count == 0)
+        if (_enemiesInRange.Count == 0)
         {
             // no enemy to shoot
             return;
         }
 
         // pick the enemy closest to goal
-        var enemy = EnemiesInRange
+        var enemy = _enemiesInRange
             .OrderByDescending(e => e.NextWaypoint.Index)
             .ThenBy(e => (e.transform.position - e.NextWaypoint.transform.position).sqrMagnitude)
             .First();
@@ -65,11 +74,22 @@ public class Tower : MonoBehaviour
             ? ShootingPoint.transform
             : transform;
 
+        PlaySound();
+        
         var projectile = Instantiate(ProjectileToFire, point.position, point.rotation);
         projectile.Damage = UnityEngine.Random.Range(MinimumDamage, MaximumDamage);
         projectile.Target = enemy;
+        projectile.InstabilityManager = InstabilityManager;
 
         _reloadTimeRemaining = 1f / FireRate;
+    }
+
+    private void PlaySound()
+    {
+        if (_audioSource == null) return;
+
+        _audioSource.clip = SoundsToPlay[Random.Range(0, SoundsToPlay.Length)];
+        _audioSource.Play();
     }
     
     public void OnTriggerEnter2D(Collider2D other)
@@ -77,7 +97,7 @@ public class Tower : MonoBehaviour
         var enemy = other.GetComponent<Enemy>();
         if (enemy != null)
         {
-            EnemiesInRange.Add(enemy);
+            _enemiesInRange.Add(enemy);
         }
     }
 
@@ -86,7 +106,7 @@ public class Tower : MonoBehaviour
         var enemy = other.GetComponent<Enemy>();
         if (enemy != null)
         {
-            EnemiesInRange.Remove(enemy);
+            _enemiesInRange.Remove(enemy);
         }
     }
     
@@ -100,6 +120,6 @@ public class Tower : MonoBehaviour
 
     public void EnemyDied(Enemy enemy)
     {
-        EnemiesInRange.Remove(enemy);
+        _enemiesInRange.Remove(enemy);
     }
 }

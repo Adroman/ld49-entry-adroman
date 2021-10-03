@@ -15,6 +15,7 @@ public class WaveManager : MonoBehaviour
     public GameEvent WaveStarted;
     public Image NextWaveMonstersUiImage;
     public TMP_Text NextWaveMonstersAmount;
+    public NextWaveManager NextWaveManager;
     public Button NextWaveButton;
 
     public float BaseHitPoints;
@@ -72,8 +73,10 @@ public class WaveManager : MonoBehaviour
             Loot = TotalLoot / selectedTemplate.Amount
         };
 
-        NextWaveMonstersUiImage.sprite = wave.EnemyToUse.PreviewImage;
+        NextWaveMonstersUiImage.sprite = wave.EnemyToUse.PreviewImage.sprite;
+        NextWaveMonstersUiImage.color = wave.EnemyToUse.PreviewImage.color;
         NextWaveMonstersAmount.text = $"{wave.Amount} x";
+        NextWaveManager.NextWave = wave;
         return wave;
     }
 
@@ -83,7 +86,7 @@ public class WaveManager : MonoBehaviour
         int amountLeft = wave.Amount;
         while (amountLeft > 0)
         {
-            var enemy = SpawnEnemy(wave);
+            SpawnEnemy(wave);
             if (--amountLeft == 0)
             {
                 _spawning = false;
@@ -98,7 +101,16 @@ public class WaveManager : MonoBehaviour
     private Enemy SpawnEnemy(Wave wave)
     {
         var enemy = Instantiate(wave.EnemyToUse, SpawnPoint.transform.position, Quaternion.identity, EnemiesParent);
-        enemy.NextWaypoint = SpawnPoint.GetNextWaypoint();
+        
+        if (SpawnPoint.Flowers.Count > 0)
+        {
+            enemy.FindFlower(SpawnPoint);
+            enemy.NextWaypoint = SpawnPoint;
+        }
+        else
+        {
+            enemy.NextWaypoint = SpawnPoint.GetNextWaypoint();
+        }
         enemy.MaximumHealth = wave.HitPoints;
         enemy.Health = wave.HitPoints;
         enemy.Armor = wave.Armor;
