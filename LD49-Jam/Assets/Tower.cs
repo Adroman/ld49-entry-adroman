@@ -8,9 +8,11 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(CircleCollider2D))]
 public class Tower : MonoBehaviour
 {
+    public string Name;
     public float MinimumDamage;
     public float MaximumDamage;
     public float FireRate;
+    public bool ShootAllTargets;
     public int UpgradePrice;
     public Tower UpgradedTower;
 
@@ -33,11 +35,13 @@ public class Tower : MonoBehaviour
     private CircleCollider2D _collider;
     private float _reloadTimeRemaining;
     private readonly List<Enemy> _enemiesInRange = new List<Enemy>();
+    private List<SpecialComponent> _specialComponents = new List<SpecialComponent>();
     
     public void Awake()
     {
         _collider = GetComponent<CircleCollider2D>();
         _audioSource = GetComponent<AudioSource>();
+        _specialComponents = new List<SpecialComponent>(GetComponents<SpecialComponent>());
     }
 
     // Update is called once per frame
@@ -56,16 +60,30 @@ public class Tower : MonoBehaviour
             return;
         }
 
-        // pick the enemy closest to goal
-        var enemy = _enemiesInRange
-            .OrderByDescending(e => e.NextWaypoint.Index)
-            .ThenBy(e => (e.transform.position - e.NextWaypoint.transform.position).sqrMagnitude)
-            .First();
 
-        var direction = enemy.transform.position - transform.position;
-        RotateTurret(direction);
+        if (ShootAllTargets)
+        {
+            foreach (var enemy in _enemiesInRange)
+            {
+                Fire(enemy);
+            }
+        }
+        else
+        {
+            // pick the enemy closest to goal
+            var enemy = _enemiesInRange
+                .OrderBy(e => e.CarriesFlower ? 0 : 1)
+                .ThenByDescending(e => e.Direction == TravelMethod.Goal ? e.NextWaypoint.Index : 6 - e.NextWaypoint.Index)
+                .ThenBy(e => (e.transform.position - e.NextWaypoint.transform.position).sqrMagnitude)
+                .First();
+
+            var direction = enemy.transform.position - transform.position;
+            RotateTurret(direction);
         
-        Fire(enemy);
+            Fire(enemy);
+        }
+        
+        PlaySound();
     }
 
     private void Fire(Enemy enemy)
@@ -73,13 +91,15 @@ public class Tower : MonoBehaviour
         var point = ShootingPoint != null
             ? ShootingPoint.transform
             : transform;
-
-        PlaySound();
         
         var projectile = Instantiate(ProjectileToFire, point.position, point.rotation);
         projectile.Damage = UnityEngine.Random.Range(MinimumDamage, MaximumDamage);
         projectile.Target = enemy;
         projectile.InstabilityManager = InstabilityManager;
+        foreach (var specialComponent in _specialComponents)
+        {
+            specialComponent.CloneComponent(projectile.gameObject);
+        }
 
         _reloadTimeRemaining = 1f / FireRate;
     }

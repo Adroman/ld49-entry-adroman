@@ -252,6 +252,11 @@ MonoBehaviour:
   EnemyDied: {fileID: 11400000, guid: be01b9180460a23419fddbc265eebc32, type: 2}
   EnemyHealth: {fileID: 8890564790078996736}
   OnFlowerLost: {fileID: 11400000, guid: 58f24b340adf94b4a869c1bd4362a4b0, type: 2}
+  Cries:
+  - {fileID: 8300000, guid: cc477416f4cbc1e40ba8784657c89fb5, type: 3}
+  - {fileID: 8300000, guid: 17477ce656321124a8c4a3646fd1d29c, type: 3}
+  - {fileID: 8300000, guid: 35c86ee4888e7ad4a8c0d7bc409c28ad, type: 3}
+  - {fileID: 8300000, guid: 6d196aea4abbec94c882572a2947c6be, type: 3}
 --- !u!58 &1626635717
 CircleCollider2D:
   m_ObjectHideFlags: 0

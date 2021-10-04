@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4265aa4778143f0bd813cef2fb1195d, type: 3}
   m_Name: Gold
   m_EditorClassIdentifier: 
-  _value: 30
+  _value: 100
   OnValueChanged: {fileID: 11400000, guid: 4776ec2df0d63e74d90fe6ee6de40628, type: 2}

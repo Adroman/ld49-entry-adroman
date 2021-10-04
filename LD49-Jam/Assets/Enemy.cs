@@ -26,9 +26,13 @@ public class Enemy : MonoBehaviour
     public EnemyEvent EnemyDied;
     public EnemyHealth EnemyHealth;
     public GameEvent OnFlowerLost;
+    public AudioClip[] Cries;
+
+    public int Id;
     
     private Flower _targetFlower;
     private Flower _carryingFlower;
+    public bool CarriesFlower => _carryingFlower != null;
 
     public void OnEnable()
     {
@@ -87,9 +91,11 @@ public class Enemy : MonoBehaviour
 
     private void TargetReached()
     {
+        Debug.Log($"Enemy {Id} reached its target.");
         // flower reached
         if (_targetFlower != null)
         {
+            Debug.Log($"Enemy {Id} picked the flower {_targetFlower.Id}.");
             _carryingFlower = _targetFlower;
             _carryingFlower.OnPickup();
             _targetFlower = null;
@@ -98,9 +104,11 @@ public class Enemy : MonoBehaviour
             {
                 Direction = TravelMethod.Entrance;
             }
+            Debug.Log($"Enemy {Id} next target is {NextWaypoint.Index}.");
         }
         else
         {
+            Debug.Log($"Enemy {Id} reached its waypoint {NextWaypoint.Index}.");
             // waypoint reached
             if (Direction == TravelMethod.Goal)
             {
@@ -108,9 +116,11 @@ public class Enemy : MonoBehaviour
                 if (_carryingFlower == null && NextWaypoint.Flowers.Count > 0)
                 {
                     FindFlower(NextWaypoint);
+                    Debug.Log($"Enemy {Id} found a flower {_targetFlower.Id} at waypoint {NextWaypoint.Index}.");
                 }
                 else
                 {
+                    Debug.Log($"Enemy {Id} found  no flower at waypoint {NextWaypoint.Index}.");
                     // no flower found or already carrying flower, go to next waypoint
                     var nextWaypoint = NextWaypoint.GetNextWaypoint();
                     if (nextWaypoint == null)
@@ -121,6 +131,7 @@ public class Enemy : MonoBehaviour
                     }
 
                     NextWaypoint = nextWaypoint;
+                    Debug.Log($"Enemy {Id} next waypoint is {NextWaypoint.Index}.");
                 }
                 
             }
@@ -131,24 +142,28 @@ public class Enemy : MonoBehaviour
                     var nextWaypoint = NextWaypoint.GetPreviousWaypoint();
                     if (nextWaypoint == null)
                     {
+                        Debug.Log($"Enemy {Id} reached the entrance.");
                         // we reached the entrance
                         Direction = TravelMethod.Goal;
                         NextWaypoint = NextWaypoint.GetNextWaypoint();
 
                         if (_carryingFlower != null)
                         {
+                            Debug.Log($"Enemy {Id} secured the flower {_carryingFlower.Id}.");
                             FlowerLost();
                         }
                     }
                     else
                     {
                         NextWaypoint = nextWaypoint;
+                        Debug.Log($"Enemy {Id} next waypoint is {NextWaypoint.Index}.");
                         
                         // there is a next waypoint
                         if (_carryingFlower == null && nextWaypoint.Flowers.Count > 0)
                         {
                             // it has a flower
                             FindFlower(nextWaypoint);
+                            Debug.Log($"Enemy {Id} found a flower {_targetFlower.Id} at waypoint {NextWaypoint.Index}.");
                         }
                     }
                 }
@@ -156,7 +171,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void FindFlower(Waypoint waypointToUse)
+    public Flower FindFlower(Waypoint waypointToUse)
     {
         waypointToUse.Flowers.RemoveAll(f => f == null);
         
@@ -165,6 +180,7 @@ public class Enemy : MonoBehaviour
 
         waypointToUse.Flowers.Remove(nearestFlower);
         _targetFlower = nearestFlower;
+        return _targetFlower;
     }
 
     private void FlowerLost()
@@ -177,18 +193,22 @@ public class Enemy : MonoBehaviour
     {
         GoldVariable.Value += Loot;
         EnemyDied.RaiseEvent(this);
+        Debug.Log($"Enemy {Id} dies.");
         if (_carryingFlower != null)
         {
             _carryingFlower.OnDrop();
             NextWaypoint.Flowers.Add(_carryingFlower);
+            Debug.Log($"Enemy {Id} drops flower {_carryingFlower.Id} at waypoint {NextWaypoint.Index}.");
         }
 
         if (_targetFlower != null)
         {
-            var waypoint = Direction == TravelMethod.Entrance 
-                ? NextWaypoint 
-                : NextWaypoint.GetPreviousWaypoint();
+            // var waypoint = Direction == TravelMethod.Entrance
+            //     ? NextWaypoint 
+            //     : NextWaypoint.GetPreviousWaypoint();
+            var waypoint = NextWaypoint;
             waypoint.Flowers.Add(_targetFlower);
+            Debug.Log($"Enemy {Id} returns flower {_targetFlower.Id} to waypoint {waypoint.Index}.");
         }
         Destroy(gameObject);
     }

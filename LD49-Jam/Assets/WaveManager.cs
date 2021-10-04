@@ -8,6 +8,7 @@ using Random = UnityEngine.Random;
 
 public class WaveManager : MonoBehaviour
 {
+    public DifficultyConfigurator DifficultyConfigurator;
     public WaveTemplate[] TemplatesToUse;
     public Waypoint SpawnPoint;
     public Transform EnemiesParent;
@@ -30,9 +31,11 @@ public class WaveManager : MonoBehaviour
 
     private Wave _nextWave;
     private bool _spawning;
+    private int _idCounter = 0;
 
     public void Start()
     {
+        ImportFromDifficulty();
         _nextWave = GenerateWave(1);
     }
 
@@ -48,6 +51,23 @@ public class WaveManager : MonoBehaviour
         TotalLoot += FlatLootIncrease;
         
         _nextWave = GenerateWave(WaveNumber.Value + 1);
+    }
+
+    private void ImportFromDifficulty()
+    {
+        if (DifficultyConfigurator != null && DifficultyConfigurator.SelectedDifficulty != null)
+        {
+            var difficulty = DifficultyConfigurator.SelectedDifficulty;
+            BaseHitPoints = difficulty.BaseHitPoints;
+            BaseArmor = difficulty.BaseArmor;
+            TotalLoot = difficulty.TotalLoot;
+
+            BaseHitPointsIncrease = difficulty.BaseHitPointsIncrease;
+            BaseArmorIncrease = difficulty.BaseArmorIncrease;
+            FlatLootIncrease = difficulty.FlatLootIncrease;
+            FlatSpeedIncrease = difficulty.FlatSpeedIncrease;
+            FlatAmountIncrease = difficulty.FlatAmountIncrease;
+        }
     }
 
     public void EnemiesCleared()
@@ -70,7 +90,7 @@ public class WaveManager : MonoBehaviour
             HitPoints = BaseHitPoints * selectedTemplate.HitPointsModifier,
             Armor = BaseArmor * selectedTemplate.ArmorModifier,
             Speed = selectedTemplate.Speed + FlatSpeedIncrease,
-            Loot = TotalLoot / selectedTemplate.Amount
+            Loot = TotalLoot / (selectedTemplate.Amount + FlatAmountIncrease)
         };
 
         NextWaveMonstersUiImage.sprite = wave.EnemyToUse.PreviewImage.sprite;
@@ -101,16 +121,20 @@ public class WaveManager : MonoBehaviour
     private Enemy SpawnEnemy(Wave wave)
     {
         var enemy = Instantiate(wave.EnemyToUse, SpawnPoint.transform.position, Quaternion.identity, EnemiesParent);
+        enemy.Id = _idCounter++;
         
         if (SpawnPoint.Flowers.Count > 0)
         {
-            enemy.FindFlower(SpawnPoint);
+            var targetFlower = enemy.FindFlower(SpawnPoint);
             enemy.NextWaypoint = SpawnPoint;
+            Debug.Log($"Enemy {enemy.Id} found a flower {targetFlower.Id} at waypoint {SpawnPoint.Index}.");
         }
         else
         {
             enemy.NextWaypoint = SpawnPoint.GetNextWaypoint();
+            Debug.Log($"Enemy {enemy.Id} next waypoint is {enemy.NextWaypoint.Index}.");
         }
+        
         enemy.MaximumHealth = wave.HitPoints;
         enemy.Health = wave.HitPoints;
         enemy.Armor = wave.Armor;

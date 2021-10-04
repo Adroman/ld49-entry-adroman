@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406acdf1e3fb43019ac400e11d192c59, type: 3}
+  m_Name: RunnerWaveTemplate
+  m_EditorClassIdentifier: 
+  MinimumWave: 3
+  PrefabToUse: {fileID: 3224342106117828921, guid: d59340131dd85f347ada2e7b0a796a32, type: 3}
+  Interval: 0.6667
+  Amount: 10
+  HitPointsModifier: 0.85
+  ArmorModifier: 0.75
+  Speed: 4.5

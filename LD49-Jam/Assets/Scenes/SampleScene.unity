@@ -387,6 +387,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -520,6 +521,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -653,6 +655,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -786,6 +789,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -919,6 +923,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -954,9 +959,9 @@ RectTransform:
   m_Father: {fileID: 262682830}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -99.53115}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33676193
@@ -1441,6 +1446,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -1604,6 +1610,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -1705,6 +1712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 9
 --- !u!1 &83229375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,6 +1990,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -2115,6 +2124,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -2248,6 +2258,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -2715,6 +2726,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -2939,6 +2951,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -3072,6 +3085,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -3106,6 +3120,140 @@ Transform:
   m_Father: {fileID: 413160500}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &179765512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179765513}
+  - component: {fileID: 179765515}
+  - component: {fileID: 179765514}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &179765513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179765512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1786716281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: 188.9, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &179765514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179765512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Restart
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &179765515
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179765512}
+  m_CullTransparentMesh: 1
 --- !u!1 &215601768
 GameObject:
   m_ObjectHideFlags: 0
@@ -3236,6 +3384,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -3251,13 +3400,14 @@ GameObject:
   - component: {fileID: 239438436}
   - component: {fileID: 239438438}
   - component: {fileID: 239438437}
+  - component: {fileID: 239438439}
   m_Layer: 5
   m_Name: Tower Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &239438435
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3347,6 +3497,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239438434}
   m_CullTransparentMesh: 1
+--- !u!114 &239438439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239438434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0dd83fcf84910b48b388a698fbf4062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameText: {fileID: 591519615}
+  DamageText: {fileID: 957467636}
+  FiringRateText: {fileID: 405296049}
+  RangeText: {fileID: 1571886754}
+  SpecialText: {fileID: 468518465}
+  PriceText: {fileID: 1831330680}
 --- !u!1 &242069952
 GameObject:
   m_ObjectHideFlags: 0
@@ -3477,6 +3645,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -3610,9 +3779,90 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &247468192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247468193}
+  - component: {fileID: 247468195}
+  - component: {fileID: 247468194}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &247468193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247468192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1630859724}
+  - {fileID: 665688642}
+  - {fileID: 1410857564}
+  - {fileID: 806261988}
+  - {fileID: 1144129448}
+  m_Father: {fileID: 530013752}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &247468194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247468192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4292453, g: 0.5344566, b: 1, a: 0.7529412}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &247468195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247468192}
+  m_CullTransparentMesh: 1
 --- !u!1 &259449867
 GameObject:
   m_ObjectHideFlags: 0
@@ -4011,6 +4261,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -4032,7 +4283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &262682830
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4250,6 +4501,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -4383,6 +4635,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -4516,6 +4769,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -4649,6 +4903,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -4681,6 +4936,9 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1387304641}
+  - {fileID: 626203531}
+  - {fileID: 1081109668}
+  - {fileID: 1898529536}
   m_Father: {fileID: 958537216}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4891,6 +5149,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5061,6 +5320,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5269,6 +5529,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5402,6 +5663,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5535,6 +5797,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5668,6 +5931,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5837,6 +6101,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -5970,6 +6235,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -6103,6 +6369,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -6138,9 +6405,9 @@ RectTransform:
   m_Father: {fileID: 239438435}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -164.4219}
   m_SizeDelta: {x: 190.2041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405296049
@@ -6239,6 +6506,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405296047}
+  m_CullTransparentMesh: 1
+--- !u!1 &405988823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405988824}
+  - component: {fileID: 405988826}
+  - component: {fileID: 405988825}
+  m_Layer: 5
+  m_Name: Tower Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &405988824
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405988823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1898529536}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &405988825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405988823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3ae9158f3b49f094cbd8ae002ec6aa47, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &405988826
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405988823}
   m_CullTransparentMesh: 1
 --- !u!1 &408448488
 GameObject:
@@ -6370,6 +6712,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -6534,6 +6877,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -6667,6 +7011,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -6800,6 +7145,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -6933,6 +7279,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7066,6 +7413,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7199,6 +7547,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7408,6 +7757,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7541,6 +7891,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7576,9 +7927,9 @@ RectTransform:
   m_Father: {fileID: 239438435}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -264.4219}
   m_SizeDelta: {x: 190.2041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &468518465
@@ -7808,6 +8159,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7941,6 +8293,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -7993,8 +8346,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e104d096f3c98cc42964c9ee68fdf246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DifficultyConfigurator: {fileID: 11400000, guid: 13704f21250817a40b10f21aac7aa7e4, type: 2}
   TemplatesToUse:
   - {fileID: 11400000, guid: 981defa25588e954fad894b2577b89ae, type: 2}
+  - {fileID: 11400000, guid: 266f547142a77af45bfd37dfad546f76, type: 2}
+  - {fileID: 11400000, guid: 89488ff17ab308040ae5a95fb1bfb5c1, type: 2}
+  - {fileID: 11400000, guid: 290a488664fef7d4196c135e7310bed3, type: 2}
+  - {fileID: 11400000, guid: e61e430766893984f8a0fb3630220525, type: 2}
   SpawnPoint: {fileID: 1676325029}
   EnemiesParent: {fileID: 60385824}
   WaveNumber: {fileID: 11400000, guid: 59d1f96d7996f37418bd9c8b4cfc1f2c, type: 2}
@@ -8028,9 +8386,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 480011072}
-        m_TargetAssemblyTypeName: WaveManagerOmens, Assembly-CSharp
+        m_TargetAssemblyTypeName: WaveManagerDisasters, Assembly-CSharp
         m_MethodName: IncreaseSpeed
-        m_Mode: 4
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8079,6 +8437,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef1aa18b3428485ab3a57601e7d97dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SelectedDifficulty: {fileID: 11400000, guid: 13704f21250817a40b10f21aac7aa7e4, type: 2}
+  HitpointIncrease: 0.1
+  ArmorIncrease: 0.1
+  SpeedIncrease: 0.5
+  AmountIncrease: 2
 --- !u!114 &480011073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8096,9 +8459,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 480011072}
-        m_TargetAssemblyTypeName: WaveManagerOmens, Assembly-CSharp
+        m_TargetAssemblyTypeName: WaveManagerDisasters, Assembly-CSharp
         m_MethodName: IncreaseArmorDifficulty
-        m_Mode: 4
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8124,9 +8487,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 480011072}
-        m_TargetAssemblyTypeName: WaveManagerOmens, Assembly-CSharp
+        m_TargetAssemblyTypeName: WaveManagerDisasters, Assembly-CSharp
         m_MethodName: IncreaseAmount
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8152,9 +8515,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 480011072}
-        m_TargetAssemblyTypeName: WaveManagerOmens, Assembly-CSharp
+        m_TargetAssemblyTypeName: WaveManagerDisasters, Assembly-CSharp
         m_MethodName: IncreaseHitPointsDifficulty
-        m_Mode: 4
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8293,6 +8656,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -8560,6 +8924,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -8693,6 +9058,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -8856,6 +9222,106 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &530013751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 530013752}
+  - component: {fileID: 530013755}
+  - component: {fileID: 530013754}
+  - component: {fileID: 530013753}
+  m_Layer: 0
+  m_Name: Pause UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &530013752
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530013751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 247468193}
+  m_Father: {fileID: 1205706912}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &530013753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530013751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &530013754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530013751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &530013755
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530013751}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &537538263
 GameObject:
   m_ObjectHideFlags: 0
@@ -8986,6 +9452,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -9210,6 +9677,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -9343,6 +9811,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -9476,6 +9945,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -9700,6 +10170,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -9735,9 +10206,9 @@ RectTransform:
   m_Father: {fileID: 239438435}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -64.421906}
   m_SizeDelta: {x: 190.2041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &591519615
@@ -10101,6 +10572,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -10136,9 +10608,9 @@ RectTransform:
   m_Father: {fileID: 262682830}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -149.53116}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &604784351
@@ -10368,6 +10840,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -10505,6 +10978,158 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613348751}
   m_CullTransparentMesh: 1
+--- !u!1 &626203530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626203531}
+  - component: {fileID: 626203535}
+  - component: {fileID: 626203534}
+  - component: {fileID: 626203533}
+  - component: {fileID: 626203532}
+  m_Layer: 5
+  m_Name: Armor Shredder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &626203531
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626203530}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1144517058}
+  - {fileID: 838450071}
+  m_Father: {fileID: 307980796}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &626203532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626203530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a36c931e7aef124cacde28bfa411823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tower: {fileID: 4722679807745268076, guid: c09a333d7fdaad144ad6970a3d77524f, type: 3}
+  TowerBaseImage: {fileID: 1144517059}
+  TurretImage: {fileID: 838450072}
+  Price: 60
+  TowerInfoManager: {fileID: 239438439}
+--- !u!114 &626203533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626203530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 626203534}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1234496224}
+        m_TargetAssemblyTypeName: UiTowerSelector, Assembly-CSharp
+        m_MethodName: SelectTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 626203532}
+          m_ObjectArgumentAssemblyTypeName: UiTowerSelection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &626203534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626203530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.67230994, g: 0.6462264, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &626203535
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626203530}
+  m_CullTransparentMesh: 1
 --- !u!1 &630646421
 GameObject:
   m_ObjectHideFlags: 0
@@ -10635,6 +11260,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -10768,6 +11394,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -10810,6 +11437,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639407780}
+  - component: {fileID: 639407781}
+  - component: {fileID: 639407782}
   m_Layer: 0
   m_Name: Flowers
   m_TagString: Untagged
@@ -10840,6 +11469,50 @@ Transform:
   m_Father: {fileID: 1126838833}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &639407781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639407779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b8fa1d3855474ebddf534357f7f80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 30333fe3d7c957847a8f97a5b55e4556, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 639407782}
+        m_TargetAssemblyTypeName: FlowersManager, Assembly-CSharp
+        m_MethodName: PerformFlowerRitual
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &639407782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639407779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c613d1f31782452d8a2c2747f018a14f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlowerRitual: {fileID: 11400000, guid: 30333fe3d7c957847a8f97a5b55e4556, type: 2}
+  InstabilityManager: {fileID: 1794134490}
+  Flowers: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  WaypointManager: {fileID: 1043995848}
 --- !u!1 &644270665
 GameObject:
   m_ObjectHideFlags: 0
@@ -10970,6 +11643,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -11103,9 +11777,143 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &665688641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 665688642}
+  - component: {fileID: 665688645}
+  - component: {fileID: 665688644}
+  - component: {fileID: 665688643}
+  m_Layer: 0
+  m_Name: Restart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &665688642
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665688641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1476658589}
+  m_Father: {fileID: 247468193}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -137.01}
+  m_SizeDelta: {x: 188.9, y: 60.015}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &665688643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665688641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 665688644}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1205706913}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &665688644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665688641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9339623, g: 0.516083, b: 0.14538093, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &665688645
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665688641}
+  m_CullTransparentMesh: 1
 --- !u!1 &666648997
 GameObject:
   m_ObjectHideFlags: 0
@@ -11236,6 +12044,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -11369,6 +12178,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -11638,6 +12448,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -11673,9 +12484,9 @@ RectTransform:
   m_Father: {fileID: 262682830}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -199.53116}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681874643
@@ -11905,6 +12716,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -12038,6 +12850,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -12171,9 +12984,89 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &701054080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 701054081}
+  - component: {fileID: 701054083}
+  - component: {fileID: 701054082}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &701054081
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701054080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1786716281}
+  - {fileID: 1792967268}
+  - {fileID: 721440260}
+  - {fileID: 1849822202}
+  m_Father: {fileID: 1187695254}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &701054082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701054080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4292453, g: 0.5344566, b: 1, a: 0.7529412}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &701054083
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701054080}
+  m_CullTransparentMesh: 1
 --- !u!1 &704587790
 GameObject:
   m_ObjectHideFlags: 0
@@ -12304,6 +13197,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -12437,6 +13331,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -12574,6 +13469,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720325072}
   m_CullTransparentMesh: 1
+--- !u!1 &721440259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 721440260}
+  - component: {fileID: 721440262}
+  - component: {fileID: 721440261}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &721440260
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721440259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 701054081}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 274.12042}
+  m_SizeDelta: {x: 807.6592, y: 107.1665}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &721440261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721440259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Game over
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 64.43
+  m_fontSizeBase: 64.43
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &721440262
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721440259}
+  m_CullTransparentMesh: 1
 --- !u!1 &725408415
 GameObject:
   m_ObjectHideFlags: 0
@@ -12672,6 +13701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 7
 --- !u!1 &726427992
 GameObject:
   m_ObjectHideFlags: 0
@@ -12802,6 +13832,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -12935,6 +13966,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -13068,6 +14100,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -13201,9 +14234,85 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &741800364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741800365}
+  - component: {fileID: 741800367}
+  - component: {fileID: 741800366}
+  m_Layer: 5
+  m_Name: Tower Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &741800365
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741800364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1081109668}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &741800366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741800364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 23c838c23336bb44a9a9c353f6715994, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &741800367
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741800364}
+  m_CullTransparentMesh: 1
 --- !u!1 &750935689
 GameObject:
   m_ObjectHideFlags: 0
@@ -13334,6 +14443,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -13467,6 +14577,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -13600,6 +14711,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -13733,6 +14845,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -14103,6 +15216,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -14311,6 +15425,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -15485,6 +16600,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -15618,9 +16734,144 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &806261987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806261988}
+  - component: {fileID: 806261990}
+  - component: {fileID: 806261989}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &806261988
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806261987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 247468193}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 274.12042}
+  m_SizeDelta: {x: 807.6592, y: 107.1665}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &806261989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806261987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Game paused
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 64.43
+  m_fontSizeBase: 64.43
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &806261990
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806261987}
+  m_CullTransparentMesh: 1
 --- !u!1 &811872986
 GameObject:
   m_ObjectHideFlags: 0
@@ -15719,6 +16970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 6
 --- !u!1 &816750975
 GameObject:
   m_ObjectHideFlags: 0
@@ -15849,9 +17101,85 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &838450070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 838450071}
+  - component: {fileID: 838450073}
+  - component: {fileID: 838450072}
+  m_Layer: 5
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &838450071
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838450070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 626203531}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &838450072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838450070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cc7ffdfb4f5f7fc449e5f6ea671dde6b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &838450073
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838450070}
+  m_CullTransparentMesh: 1
 --- !u!1 &838722389
 GameObject:
   m_ObjectHideFlags: 0
@@ -15950,6 +17278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 1
 --- !u!1 &864788197
 GameObject:
   m_ObjectHideFlags: 0
@@ -16124,6 +17453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 3
 --- !u!1 &869093763
 GameObject:
   m_ObjectHideFlags: 0
@@ -16254,6 +17584,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -16462,6 +17793,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -16595,6 +17927,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -16728,6 +18061,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -16861,6 +18195,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -16994,6 +18329,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -17127,6 +18463,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -17260,6 +18597,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -17393,6 +18731,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -17526,6 +18865,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -17659,6 +18999,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -17868,6 +19209,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -18001,6 +19343,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -18268,6 +19611,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -18303,9 +19647,9 @@ RectTransform:
   m_Father: {fileID: 239438435}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -114.421906}
   m_SizeDelta: {x: 190.2041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957467636
@@ -18613,6 +19957,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -18837,6 +20182,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -18970,6 +20316,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -19103,6 +20450,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -19236,6 +20584,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -19337,6 +20686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 2
 --- !u!1 &987337654
 GameObject:
   m_ObjectHideFlags: 0
@@ -19467,6 +20817,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -19676,6 +21027,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -19809,6 +21161,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -19942,6 +21295,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -20075,6 +21429,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -20208,6 +21563,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -20413,6 +21769,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -20539,6 +21896,158 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077675049}
+  m_CullTransparentMesh: 1
+--- !u!1 &1081109667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1081109668}
+  - component: {fileID: 1081109672}
+  - component: {fileID: 1081109671}
+  - component: {fileID: 1081109670}
+  - component: {fileID: 1081109669}
+  m_Layer: 5
+  m_Name: Multishoot Tower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1081109668
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081109667}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 741800365}
+  - {fileID: 1498354834}
+  m_Father: {fileID: 307980796}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1081109669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081109667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a36c931e7aef124cacde28bfa411823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tower: {fileID: 5945727350291393772, guid: ffa8d051dad3da94ba55906dd484b98f, type: 3}
+  TowerBaseImage: {fileID: 741800366}
+  TurretImage: {fileID: 1498354835}
+  Price: 100
+  TowerInfoManager: {fileID: 239438439}
+--- !u!114 &1081109670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081109667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1081109671}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1234496224}
+        m_TargetAssemblyTypeName: UiTowerSelector, Assembly-CSharp
+        m_MethodName: SelectTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1081109669}
+          m_ObjectArgumentAssemblyTypeName: UiTowerSelection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1081109671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081109667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.67230994, g: 0.6462264, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1081109672
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081109667}
   m_CullTransparentMesh: 1
 --- !u!1 &1084422675
 GameObject:
@@ -20670,6 +22179,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -20803,6 +22313,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -20854,6 +22365,7 @@ MonoBehaviour:
   Speed: 1
   MaximumSpeed: 2
   SpeedIncrease: 0.05
+  PlayMenuLoop: 0
 --- !u!4 &1098059508
 Transform:
   m_ObjectHideFlags: 0
@@ -21026,6 +22538,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -21115,6 +22628,215 @@ SpriteMask:
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1144129447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1144129448}
+  - component: {fileID: 1144129450}
+  - component: {fileID: 1144129449}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1144129448
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144129447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 247468193}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 144}
+  m_SizeDelta: {x: 496.4191, y: 119.8702}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1144129449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144129447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Even pausing may causing instability, so be careful...
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1144129450
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144129447}
+  m_CullTransparentMesh: 1
+--- !u!1 &1144517057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1144517058}
+  - component: {fileID: 1144517060}
+  - component: {fileID: 1144517059}
+  m_Layer: 5
+  m_Name: Tower Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1144517058
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144517057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 626203531}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1144517059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144517057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 23c838c23336bb44a9a9c353f6715994, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1144517060
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144517057}
+  m_CullTransparentMesh: 1
 --- !u!1 &1148875842
 GameObject:
   m_ObjectHideFlags: 0
@@ -21379,6 +23101,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -21512,9 +23235,95 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1165897305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165897309}
+  - component: {fileID: 1165897308}
+  - component: {fileID: 1165897307}
+  - component: {fileID: 1165897306}
+  m_Layer: 0
+  m_Name: EnemyAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1165897306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165897305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351541ccb6af46de9de83cabb64d6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: be01b9180460a23419fddbc265eebc32, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1165897307}
+        m_TargetAssemblyTypeName: EnemyCry, Assembly-CSharp
+        m_MethodName: PlayEnemyCry
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1165897307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165897305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01fc495b904ec484bb9059e37758f080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1165897308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165897305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5047cfa9a68eb49abfc7d68087a2ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1165897309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165897305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.91429114, y: -0.12704882, z: -5699.9204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1170022414
 GameObject:
   m_ObjectHideFlags: 0
@@ -21645,6 +23454,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -21824,6 +23634,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -21957,6 +23768,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -22093,6 +23905,106 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184155276}
   m_CullTransparentMesh: 1
+--- !u!1 &1187695253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187695254}
+  - component: {fileID: 1187695257}
+  - component: {fileID: 1187695256}
+  - component: {fileID: 1187695255}
+  m_Layer: 0
+  m_Name: Game Over UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1187695254
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187695253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 701054081}
+  m_Father: {fileID: 1205706912}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1187695255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187695253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1187695256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187695253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1187695257
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187695253}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1190022599
 GameObject:
   m_ObjectHideFlags: 0
@@ -22223,6 +24135,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -22270,8 +24183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44ee1706feaa0643a4bf55ae5a79a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DifficultyConfigurator: {fileID: 11400000, guid: 13704f21250817a40b10f21aac7aa7e4, type: 2}
   GoldAmount: {fileID: 11400000, guid: d15fe990ad3920a498dd3c731667c638, type: 2}
   WaveNumber: {fileID: 11400000, guid: 59d1f96d7996f37418bd9c8b4cfc1f2c, type: 2}
+  InitialGoldAmount: 100
 --- !u!114 &1194520386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22430,6 +24345,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -22442,6 +24358,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1205706912}
+  - component: {fileID: 1205706913}
+  - component: {fileID: 1205706914}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -22461,9 +24379,71 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 773367086}
+  - {fileID: 530013752}
+  - {fileID: 1187695254}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205706913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205706911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe833835b61e8184eb04bd8a5a672dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InGameUi: {fileID: 773367085}
+  PauseUi: {fileID: 530013751}
+  GameOverUi: {fileID: 1187695253}
+  TowerSelector: {fileID: 1234496224}
+  InstabilityManager: {fileID: 1794134490}
+  WaveManager: {fileID: 480011069}
+  MenuSceneId: 0
+  InGameSceneId: 1
+--- !u!114 &1205706914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205706911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b8fa1d3855474ebddf534357f7f80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: ddade61df648de444aad3c633486afee, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1234496224}
+        m_TargetAssemblyTypeName: UiTowerSelector, Assembly-CSharp
+        m_MethodName: DeselectTower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1205706913}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1234496222
 GameObject:
   m_ObjectHideFlags: 0
@@ -22724,6 +24704,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -22857,6 +24838,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -22990,6 +24972,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -23123,6 +25106,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -23442,6 +25426,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291199172}
   m_CullTransparentMesh: 1
+--- !u!1 &1294253517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1294253518}
+  - component: {fileID: 1294253520}
+  - component: {fileID: 1294253519}
+  m_Layer: 0
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1294253518
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294253517}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1410857564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000048637, y: 5.007}
+  m_SizeDelta: {x: 188.9, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1294253519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294253517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Exit
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1294253520
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294253517}
+  m_CullTransparentMesh: 1
 --- !u!1 &1304986974
 GameObject:
   m_ObjectHideFlags: 0
@@ -23572,6 +25690,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -23705,6 +25824,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -23912,6 +26032,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -24045,6 +26166,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -24178,6 +26300,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -24311,6 +26434,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -24520,6 +26644,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -24653,6 +26778,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -24888,6 +27014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 4
 --- !u!1 &1383118273
 GameObject:
   m_ObjectHideFlags: 0
@@ -25018,6 +27145,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -25151,6 +27279,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -25284,6 +27413,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -25417,6 +27547,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -25477,6 +27608,7 @@ MonoBehaviour:
   TowerBaseImage: {fileID: 136774810}
   TurretImage: {fileID: 792961825}
   Price: 50
+  TowerInfoManager: {fileID: 239438439}
 --- !u!114 &1387304643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25701,6 +27833,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -25802,6 +27935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 8
 --- !u!1 &1395897329
 GameObject:
   m_ObjectHideFlags: 0
@@ -25932,6 +28066,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -26001,6 +28136,139 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1410857563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410857564}
+  - component: {fileID: 1410857567}
+  - component: {fileID: 1410857566}
+  - component: {fileID: 1410857565}
+  m_Layer: 0
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1410857564
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1294253518}
+  m_Father: {fileID: 247468193}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 350, y: -137.01}
+  m_SizeDelta: {x: 188.9, y: 60.014}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1410857565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1410857566}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1205706913}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1410857566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.1462264, b: 0.1462264, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1410857567
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410857563}
+  m_CullTransparentMesh: 1
 --- !u!1 &1416850659
 GameObject:
   m_ObjectHideFlags: 0
@@ -26131,6 +28399,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -26264,6 +28533,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -26397,9 +28667,144 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1439683725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1439683726}
+  - component: {fileID: 1439683728}
+  - component: {fileID: 1439683727}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1439683726
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439683725}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1630859724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0000066757, y: 5.0076}
+  m_SizeDelta: {x: 188.9, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1439683727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439683725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Resume
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1439683728
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439683725}
+  m_CullTransparentMesh: 1
 --- !u!1 &1442441048
 GameObject:
   m_ObjectHideFlags: 0
@@ -26530,6 +28935,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -26663,6 +29069,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -26930,9 +29337,144 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1476658588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476658589}
+  - component: {fileID: 1476658591}
+  - component: {fileID: 1476658590}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1476658589
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476658588}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 665688642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000012398, y: 5.0075}
+  m_SizeDelta: {x: 188.9, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1476658590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476658588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Restart
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1476658591
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476658588}
+  m_CullTransparentMesh: 1
 --- !u!1 &1476825484
 GameObject:
   m_ObjectHideFlags: 0
@@ -27063,6 +29605,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -27196,6 +29739,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -27352,6 +29896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlowerPickedUp: {fileID: 11400000, guid: aa9ac4fff29883749a34b0055685b5da, type: 2}
   FlowerCollection: {fileID: 11400000, guid: c13fa0f0e8747b64d963416995402365, type: 2}
+  Id: 5
 --- !u!1 &1489200221
 GameObject:
   m_ObjectHideFlags: 0
@@ -27616,6 +30161,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -27749,9 +30295,85 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1498354833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498354834}
+  - component: {fileID: 1498354836}
+  - component: {fileID: 1498354835}
+  m_Layer: 5
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1498354834
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498354833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1081109668}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1498354835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498354833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f582fa2c773802343bffd1ead985c3c2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1498354836
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498354833}
+  m_CullTransparentMesh: 1
 --- !u!1 &1508191858
 GameObject:
   m_ObjectHideFlags: 0
@@ -27882,6 +30504,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -28090,6 +30713,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -28630,6 +31254,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -28897,6 +31522,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -28932,9 +31558,9 @@ RectTransform:
   m_Father: {fileID: 239438435}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -214.4219}
   m_SizeDelta: {x: 190.2041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571886754
@@ -29164,6 +31790,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -29431,6 +32058,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -29820,9 +32448,143 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1630859723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630859724}
+  - component: {fileID: 1630859727}
+  - component: {fileID: 1630859726}
+  - component: {fileID: 1630859725}
+  m_Layer: 0
+  m_Name: Resume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1630859724
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630859723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1439683726}
+  m_Father: {fileID: 247468193}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -350, y: -137.01}
+  m_SizeDelta: {x: 188.9036, y: 60.0153}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1630859725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630859723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1630859726}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1205706913}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: UnpauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1630859726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630859723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.075919434, g: 0.8584906, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1630859727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630859723}
+  m_CullTransparentMesh: 1
 --- !u!1 &1638408694
 GameObject:
   m_ObjectHideFlags: 0
@@ -29953,6 +32715,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30086,6 +32849,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30219,6 +32983,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30352,6 +33117,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30485,6 +33251,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30618,6 +33385,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30751,6 +33519,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -30884,6 +33653,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -31139,6 +33909,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -31272,6 +34043,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -31405,6 +34177,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -31538,6 +34311,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -31616,6 +34390,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694949146}
+  m_CullTransparentMesh: 1
+--- !u!1 &1695480151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1695480152}
+  - component: {fileID: 1695480154}
+  - component: {fileID: 1695480153}
+  m_Layer: 5
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1695480152
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695480151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1898529536}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1695480153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695480151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4eb9a99f36917e14bb60b29ca435468d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1695480154
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695480151}
   m_CullTransparentMesh: 1
 --- !u!1 &1696476339
 GameObject:
@@ -31747,6 +34596,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -31797,6 +34647,140 @@ Transform:
   m_Father: {fileID: 1126838833}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1710691924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1710691925}
+  - component: {fileID: 1710691927}
+  - component: {fileID: 1710691926}
+  m_Layer: 0
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1710691925
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710691924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1792967268}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: 188.9, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1710691926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710691924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Exit
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1710691927
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710691924}
+  m_CullTransparentMesh: 1
 --- !u!1 &1714439353
 GameObject:
   m_ObjectHideFlags: 0
@@ -31927,6 +34911,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -32060,6 +35045,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -32193,6 +35179,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -32671,9 +35658,276 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1786716280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786716281}
+  - component: {fileID: 1786716284}
+  - component: {fileID: 1786716283}
+  - component: {fileID: 1786716282}
+  m_Layer: 0
+  m_Name: Restart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1786716281
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786716280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 179765513}
+  m_Father: {fileID: 701054081}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -175, y: -137.01}
+  m_SizeDelta: {x: 188.9, y: 60.015}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1786716282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786716280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1786716283}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1205706913}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1786716283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786716280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9339623, g: 0.516083, b: 0.14538093, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1786716284
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786716280}
+  m_CullTransparentMesh: 1
+--- !u!1 &1792967267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792967268}
+  - component: {fileID: 1792967271}
+  - component: {fileID: 1792967270}
+  - component: {fileID: 1792967269}
+  m_Layer: 0
+  m_Name: Exit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1792967268
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792967267}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1710691925}
+  m_Father: {fileID: 701054081}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 175, y: -137.01}
+  m_SizeDelta: {x: 188.9, y: 60.014}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1792967269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792967267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1792967270}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1205706913}
+        m_TargetAssemblyTypeName: UiManager, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1792967270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792967267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.1462264, b: 0.1462264, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1792967271
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792967267}
+  m_CullTransparentMesh: 1
 --- !u!1 &1794134489
 GameObject:
   m_ObjectHideFlags: 0
@@ -32708,6 +35962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156736460bb268a41869377006c325e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DifficultyConfigurator: {fileID: 11400000, guid: 13704f21250817a40b10f21aac7aa7e4, type: 2}
   MaxInstability: {fileID: 11400000, guid: b9377b06b7503124ca5dcc6b8bb9404d, type: 2}
   CurrentInstability: {fileID: 11400000, guid: 4e90782eb0125ee45b3c278ce22aa118, type: 2}
   GoldAmount: {fileID: 11400000, guid: d15fe990ad3920a498dd3c731667c638, type: 2}
@@ -32721,15 +35976,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2b993a1cffbdd704789551c3c00b0a5e, type: 2}
   - {fileID: 11400000, guid: d77541e41f8ee384086a11e4d441cef3, type: 2}
   DisasterOccured: {fileID: 11400000, guid: 480c0c1760a1c364c8dd5979362df2eb, type: 2}
+  InitialMaxInstability: 0
   MaxInstabilityIncrease: 100
   TowerInstability: 20
   TowerInstabilityIncrease: 2
   TowerUpgradeInstability: 50
   TowerUpgradeInstabilityIncrease: 5
-  FlowerPickupInstability: 5
-  FlowerLostInstability: 50
+  FlowerPickupInstability: 50
+  FlowerLostInstability: 500
   MoneyHoardingInstabilityMinimum: 500
   MoneyHoardingInstabilityIncreasePerGold: 1
+  PauseInstability: 10
 --- !u!4 &1794134491
 Transform:
   m_ObjectHideFlags: 0
@@ -33141,9 +36398,9 @@ RectTransform:
   m_Father: {fileID: 239438435}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -314.4219}
   m_SizeDelta: {x: 190.2041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831330680
@@ -33419,9 +36676,159 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1849822201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849822202}
+  - component: {fileID: 1849822204}
+  - component: {fileID: 1849822203}
+  - component: {fileID: 1849822205}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1849822202
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849822201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 701054081}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 144}
+  m_SizeDelta: {x: 496.4191, y: 119.8702}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1849822203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849822201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: You survived x waves.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1849822204
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849822201}
+  m_CullTransparentMesh: 1
+--- !u!114 &1849822205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849822201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcdefec8d8534c22a57b55636425ae0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveNumber: {fileID: 11400000, guid: 59d1f96d7996f37418bd9c8b4cfc1f2c, type: 2}
+  TextToDisplay: {fileID: 1849822203}
 --- !u!1 &1853788012
 GameObject:
   m_ObjectHideFlags: 0
@@ -33552,6 +36959,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -33685,9 +37093,162 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
+--- !u!1 &1898529535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1898529536}
+  - component: {fileID: 1898529540}
+  - component: {fileID: 1898529539}
+  - component: {fileID: 1898529538}
+  - component: {fileID: 1898529537}
+  m_Layer: 5
+  m_Name: HeathEater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1898529536
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898529535}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 405988824}
+  - {fileID: 1695480152}
+  m_Father: {fileID: 307980796}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 75, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1898529537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898529535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a36c931e7aef124cacde28bfa411823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tower: {fileID: 1406901954357504293, guid: 35c7656fb0afab84e912d3bd39f34fea, type: 3}
+  TowerBaseImage: {fileID: 405988825}
+  TurretImage: {fileID: 1695480153}
+  Price: 1000
+  TowerInfoManager: {fileID: 239438439}
+--- !u!114 &1898529538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898529535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1898529539}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1234496224}
+        m_TargetAssemblyTypeName: UiTowerSelector, Assembly-CSharp
+        m_MethodName: SelectTower
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1898529537}
+          m_ObjectArgumentAssemblyTypeName: UiTowerSelection, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1898529539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898529535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.67230994, g: 0.6462264, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 54a090cc0a259ae4bbc4cb89f44fdb98, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1898529540
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898529535}
+  m_CullTransparentMesh: 1
 --- !u!1 &1901723967
 GameObject:
   m_ObjectHideFlags: 0
@@ -33818,6 +37379,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -33853,9 +37415,9 @@ RectTransform:
   m_Father: {fileID: 262682830}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 95, y: -49.53115}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1940012839
@@ -34085,6 +37647,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -34218,6 +37781,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -34351,6 +37915,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -34484,6 +38049,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -34617,6 +38183,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -34750,6 +38317,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -35017,6 +38585,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -35241,6 +38810,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -35374,6 +38944,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -35724,6 +39295,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -35857,6 +39429,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -35990,6 +39563,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -36123,6 +39697,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -38851,6 +42426,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}
@@ -39273,6 +42849,7 @@ MonoBehaviour:
   TowerBuilt: {fileID: 11400000, guid: 0c7cf1e3e9e55c948b57d407aba3b7e2, type: 2}
   TowerUpgraded: {fileID: 11400000, guid: bf5dcbe89ef261a438ed40e05669ee72, type: 2}
   InstabilityManager: {fileID: 1794134490}
+  TowerInfoManager: {fileID: 239438439}
   DeselectedColor: {r: 0, g: 0, b: 0, a: 0}
   SelectedColor: {r: 0, g: 1, b: 1, a: 0.5}
   BuiltTower: {fileID: 0}

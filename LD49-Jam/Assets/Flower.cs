@@ -6,6 +6,7 @@ public class Flower : MonoBehaviour
 {
     public GameEvent FlowerPickedUp;
     public FlowerCollection FlowerCollection;
+    public int Id;
     
     private SpriteRenderer _spriteRenderer;
 

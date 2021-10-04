@@ -100,3 +100,7 @@ MonoBehaviour:
   Speed: 15
   Target: {fileID: 0}
   AngleOffset: -90
+  InstabilityManager: {fileID: 0}
+  RotateTowardsTarget: 1
+  RotateAround: 0
+  RotationSpeed: 0

@@ -8,6 +8,9 @@ public class Projectile : MonoBehaviour
     public Enemy Target;
     public float AngleOffset;
     public InstabilityManager InstabilityManager;
+    public bool RotateTowardsTarget;
+    public bool RotateAround;
+    public float RotationSpeed;
     
     public void Update()
     {
@@ -20,7 +23,15 @@ public class Projectile : MonoBehaviour
         
         var direction = Target.transform.position - transform.position;
 
-        RotateSprite(direction);
+        if (RotateTowardsTarget)
+        {
+            RotateSprite(direction);
+        }
+
+        if (RotateAround)
+        {
+            transform.Rotate(Vector3.forward, RotationSpeed * Time.deltaTime);
+        }
 
         float sqrDistanceLeft = direction.sqrMagnitude;
         float travelDistance = Speed * Time.deltaTime;
@@ -38,16 +49,15 @@ public class Projectile : MonoBehaviour
     private void HitEnemy(Enemy enemy)
     {
         enemy.Health -= Math.Max(1, Damage - enemy.Armor);
+        foreach (var special in gameObject.GetComponents<SpecialComponent>())
+        {
+            special.PerformSpecialEffect(enemy);
+        }
         enemy.EnemyHealth.AdjustHealth(enemy);
         if (enemy.Health < 0)
         {
             enemy.Die();
         }
-    }
-    
-    public virtual void AdditionalEffect(Enemy enemy)
-    {
-        
     }
 
     private void RotateSprite(Vector3 direction)

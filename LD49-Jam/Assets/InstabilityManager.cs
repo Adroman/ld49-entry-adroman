@@ -3,13 +3,15 @@ using UnityEngine;
 
 public class InstabilityManager : MonoBehaviour
 {
+    public DifficultyConfigurator DifficultyConfigurator;
     public IntVariable MaxInstability;
     public IntVariable CurrentInstability;
     public IntVariable GoldAmount;
 
     public List<GameEvent> Disasters;
     public GameEvent DisasterOccured;
-    
+
+    public int InitialMaxInstability;
     public int MaxInstabilityIncrease;
     
     // constants
@@ -25,16 +27,48 @@ public class InstabilityManager : MonoBehaviour
     public int MoneyHoardingInstabilityMinimum = 200;
     public int MoneyHoardingInstabilityIncreasePerGold = 1;
 
+    public int PauseInstability = 10;
+
     private void Start()
     {
-        MaxInstability.Value = 100;
+        ImportFromDifficulty();
+        MaxInstability.Value = InitialMaxInstability;
         CurrentInstability.Value = 0;
     }
 
+    private void ImportFromDifficulty()
+    {
+        if (DifficultyConfigurator != null && DifficultyConfigurator.SelectedDifficulty != null)
+        {
+            var difficulty = DifficultyConfigurator.SelectedDifficulty;
+            InitialMaxInstability = difficulty.InitialMaxInstability;
+            MaxInstabilityIncrease = difficulty.MaxInstabilityIncrease;
+            TowerInstability = difficulty.TowerInstability;
+            TowerInstabilityIncrease = difficulty.TowerInstabilityIncrease;
+            TowerUpgradeInstability = difficulty.TowerUpgradeInstability;
+            TowerUpgradeInstabilityIncrease = difficulty.TowerUpgradeInstabilityIncrease;
+            FlowerPickupInstability = difficulty.FlowerPickupInstability;
+            FlowerLostInstability = difficulty.FlowerLostInstability;
+            MoneyHoardingInstabilityMinimum = difficulty.MoneyHoardingInstabilityMinimum;
+            MoneyHoardingInstabilityIncreasePerGold = difficulty.MoneyHoardingInstabilityIncreasePerGold;
+            PauseInstability = difficulty.PauseInstability;
+
+            foreach (var disaster in difficulty.DisastersToExclude)
+            {
+                Disasters.Remove(disaster);
+            }
+
+            foreach (var disaster in difficulty.DisastersToInclude)
+            {
+                Disasters.Add(disaster);
+            }
+        }
+    }
+    
     public void IncreaseInstability(int amount)
     {
         CurrentInstability.Value += amount;
-        if (CurrentInstability.Value >= MaxInstability.Value)
+        while (CurrentInstability.Value >= MaxInstability.Value)
         {
             CurrentInstability.Value -= MaxInstability.Value;
             MaxInstability.Value += MaxInstabilityIncrease;
@@ -72,8 +106,14 @@ public class InstabilityManager : MonoBehaviour
         MoneyHoardingInstabilityMinimum = GoldAmount.Value;
     }
 
+    public void GamePaused()
+    {
+        IncreaseInstability(PauseInstability);
+    }
+
     private void TriggerDisaster()
     {
+        if (Disasters.Count == 0) return;
         int i = Random.Range(0, Disasters.Count);
         Disasters[i].RaiseEvent();
         DisasterOccured.RaiseEvent();

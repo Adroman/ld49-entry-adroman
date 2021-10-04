@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c36080bfc7d4c70887b2be191ce9f33, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: 
+  InitialGold: 100
+  BaseHitPoints: 10
+  BaseArmor: 1
+  TotalLoot: 100
+  BaseHitPointsIncrease: 1.2
+  BaseArmorIncrease: 1.1
+  FlatLootIncrease: 10
+  FlatSpeedIncrease: 0
+  FlatAmountIncrease: 0
+  HitpointIncrease: 0.1
+  ArmorIncrease: 0.1
+  SpeedIncrease: 1
+  AmountIncrease: 2
+  TowerInstability: 50
+  TowerInstabilityIncrease: 5
+  TowerUpgradeInstability: 100
+  TowerUpgradeInstabilityIncrease: 10
+  FlowerPickupInstability: 100
+  FlowerLostInstability: 1000
+  MoneyHoardingInstabilityMinimum: 100
+  MoneyHoardingInstabilityIncreasePerGold: 1
+  PauseInstability: 50
+  DisastersToExclude:
+  - {fileID: 11400000, guid: 2b993a1cffbdd704789551c3c00b0a5e, type: 2}
+  DisastersToInclude:
+  - {fileID: 11400000, guid: 15eb9c5c626199f4d8af970661b3a48b, type: 2}
+  - {fileID: 11400000, guid: 15eb9c5c626199f4d8af970661b3a48b, type: 2}
+  - {fileID: 11400000, guid: 15eb9c5c626199f4d8af970661b3a48b, type: 2}
+  - {fileID: 11400000, guid: 15eb9c5c626199f4d8af970661b3a48b, type: 2}
+  InitialMaxInstability: 250
+  MaxInstabilityIncrease: 50

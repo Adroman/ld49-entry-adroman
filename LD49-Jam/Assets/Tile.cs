@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -11,6 +12,7 @@ public class Tile : MonoBehaviour
     public GameEvent TowerBuilt;
     public GameEvent TowerUpgraded;
     public InstabilityManager InstabilityManager;
+    public TowerInfoManager TowerInfoManager;
     
     public Color DeselectedColor = new Color(0, 0, 0, 0);
     public Color SelectedColor = new Color(0, 1, 1, 0.5f);
@@ -35,17 +37,36 @@ public class Tile : MonoBehaviour
         _renderer.color = DeselectedColor;
     }
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            OnMouseExit();
+        }
+    }
+
+
     public void OnMouseEnter()
     {
         if (BuiltTower == null && TowerSelector.SelectedTower != null)
         {
             _renderer.color = SelectedColor;
         }
+
+        if (BuiltTower != null)
+        {
+            TowerInfoManager.gameObject.SetActive(true);
+            TowerInfoManager.UpdateData(BuiltTower);
+        }
     }
 
     public void OnMouseExit()
     {
         _renderer.color = DeselectedColor;
+        if (BuiltTower != null)
+        {
+            TowerInfoManager.gameObject.SetActive(false);
+        }
     }
 
     public void OnMouseDown()
@@ -57,6 +78,7 @@ public class Tile : MonoBehaviour
         else if (BuiltTower != null && BuiltTower.UpgradedTower != null)
         {
             UpgradeTower();
+            TowerInfoManager.UpdateData(BuiltTower);
         }
     }
 
@@ -96,5 +118,8 @@ public class Tile : MonoBehaviour
         BuiltTower.InstabilityManager = InstabilityManager;
         TowerBuilt.RaiseEvent();
         OnMouseExit();
+        
+        TowerInfoManager.gameObject.SetActive(true);
+        TowerInfoManager.UpdateData(BuiltTower);
     }
 }

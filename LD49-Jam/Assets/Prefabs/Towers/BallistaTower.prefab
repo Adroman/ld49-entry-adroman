@@ -116,6 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d715addb8b22914b866557a46c33a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Ballista
   MinimumDamage: 5
   MaximumDamage: 10
   FireRate: 2
@@ -128,7 +129,6 @@ MonoBehaviour:
   InstabilityManager: {fileID: 0}
   SoundsToPlay:
   - {fileID: 8300000, guid: 0805de7e4fb0f4d03a30ae90e7c64311, type: 3}
-  - {fileID: 8300000, guid: 34aca9e3f1ade4802b9062b1380aa523, type: 3}
   - {fileID: 8300000, guid: 2bc8225a23eb945578cfd49d8ba0dd67, type: 3}
 --- !u!114 &891749541104041948
 MonoBehaviour:

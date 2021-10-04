@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 406acdf1e3fb43019ac400e11d192c59, type: 3}
+  m_Name: ArmoredWaveTemplate
+  m_EditorClassIdentifier: 
+  MinimumWave: 5
+  PrefabToUse: {fileID: 6598404609792287139, guid: 87cba8eee1cdb2c4ba9b7c41862016c3, type: 3}
+  Interval: 1.75
+  Amount: 10
+  HitPointsModifier: 1.5
+  ArmorModifier: 2
+  Speed: 2
